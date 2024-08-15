@@ -1,0 +1,14 @@
+
+python -m venv venv
+venv\Scripts\Activate.ps1 (windows)
+pip install -r requirements.txt
+or
+pip install requests
+pip install typing
+
+---- to use submodule ----
+git submodule add [submodule-repository-url] [path]
+git submodule add https://github.com/lumash/use-api.git sm/api-module
+
+git submodule init
+git submodule update
